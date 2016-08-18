@@ -1,0 +1,19 @@
+2016-04-14 10:04:26.839 [1] DEBUG [dslrBooth.classes.Logger] Starting logger
+2016-04-14 10:08:21.511 [1] INFO  [dslrBooth.Core.Classes.ProcessUtility] Working Memory: 67 MB
+2016-05-02 14:18:21.900 [15] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] Done waiting
+2016-05-02 14:18:21.900 [15] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] ****************** Finished photo session *********************
+2016-05-02 14:18:22.419 [Print] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] Printing 1 copies of 20160502_141818_903.jpg...
+2016-05-02 14:18:22.709 [Print] INFO  [dslrBooth.ViewModel.MainWindowViewModel] PrintablePageArea: 590.07874015748x396.797480314961
+2016-05-02 14:18:22.717 [Print] INFO  [dslrBooth.ViewModel.MainWindowViewModel] PageMediaSize: Unknown (589.984251968504 x 396.472440944882)
+2016-05-02 14:18:22.727 [Print] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] Sending document to printer | 20160502_141818_903.jpg
+2016-05-02 14:18:22.728 [Print] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] Printer: DP-DS620
+2016-05-02 14:18:36.075 [1] INFO  [dslrBooth.Core.Classes.ProcessUtility] Working Memory: 197 MB
+2016-05-02 14:19:02.690 [1] DEBUG [dslrBooth.ViewModel.Layouts.LayoutCaptureViewModel] ******* Start Session  *************
+2016-05-02 14:19:14.388 [18] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] Done waiting
+2016-05-02 14:19:14.388 [18] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] ****************** Finished photo session *********************
+2016-05-02 14:19:14.428 [Print] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] Printing 1 copies of 20160502_141911_385.jpg...
+2016-05-02 14:19:14.698 [Print] INFO  [dslrBooth.ViewModel.MainWindowViewModel] PrintablePageArea: 590.07874015748x396.797480314961
+2016-05-02 14:19:14.705 [Print] INFO  [dslrBooth.ViewModel.MainWindowViewModel] PageMediaSize: Unknown (589.984251968504 x 396.472440944882)
+2016-05-02 14:19:14.708 [Print] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] Sending document to printer | 20160502_141911_385.jpg
+2016-05-02 14:19:14.709 [Print] DEBUG [dslrBooth.ViewModel.MainWindowViewModel] Printer: DP-DS620
+2016-05-02 14:19:28.108 [1] INFO  [dslrBooth.Core.Classes.ProcessUtility] Working Memory: 189 MB
