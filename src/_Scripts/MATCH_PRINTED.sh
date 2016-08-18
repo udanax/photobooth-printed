@@ -25,7 +25,7 @@ if [ ! -f "$log_path" ]; then
     exit
 fi
 
-if [ ! -f "$folder_print" ]; then
+if [ ! -d "$folder_print" ]; then
     echo "FATAL ERROR: Folder 'Prints' with original photos prepared for print not found!"
     exit
 fi
