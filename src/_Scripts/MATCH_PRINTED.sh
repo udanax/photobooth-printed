@@ -17,10 +17,23 @@ folder_printed="$folder_root/Vytisknuto"
 # Path to folder with non-printed photos
 folder_printed_no="$folder_root/Netisknuto"
 
+# Path to log file
+log_path="$folder_root/dslrbooth_log.txt"
+
+if [ ! -f "$log_path" ]; then
+    echo "FATAL ERROR: Log file 'dslrbooth_log.txt' not found in specified dir!"
+    exit
+fi
+
+if [ ! -f "$folder_print" ]; then
+    echo "FATAL ERROR: Folder 'Prints' with original photos prepared for print not found!"
+    exit
+fi
+
 mkdir -p $folder_printed
 mkdir -p $folder_printed_no
 
-targets=($(cat "$folder_root/dslrbooth_log.txt" | dos2unix | grep -E -o -a "^.*] Printing .* of .*\.\.\.$" | sed -e "s/^.*Printing .* of //"  | sed -e "s/\.\.\.$//"))
+targets=($(cat "$log_path" | dos2unix | grep -E -o -a "^.*] Printing .* of .*\.\.\.$" | sed -e "s/^.*Printing .* of //"  | sed -e "s/\.\.\.$//"))
 length=${#targets[@]}
 
 # Clear printed images first
